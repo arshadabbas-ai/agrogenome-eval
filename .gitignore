@@ -1,0 +1,57 @@
+
+# AgroGenome-Eval
+# Ignore local Python environments and generated files
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest cache and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python package build files
+build/
+dist/
+*.egg-info/
+
+# Environment variables and private credentials
+.env
+.env.*
+!.env.example
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+
+# Temporary directories and editor backups
+tmp/
+temp/
+*.bak
+*.swp
+*.swo
+*~
+
+# Local secrets and private research data
+.aws/
+.ssh/
+*.pem
+*.key
+secrets/
+private/
+data/private/

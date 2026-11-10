@@ -1,0 +1,28 @@
+
+# AgroGenome-Eval
+# Python package configuration
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agrogenome-eval"
+version = "0.1.0"
+description = "Plant genomics and scientific AI evaluation toolkit"
+requires-python = ">=3.10"
+
+dependencies = [
+    "biopython>=1.83,<2"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
