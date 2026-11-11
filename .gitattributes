@@ -1,0 +1,2 @@
+# Preserve exact NCBI FASTA bytes for manifest SHA-256 checksums on every OS.
+data/reference/*.fasta -text
