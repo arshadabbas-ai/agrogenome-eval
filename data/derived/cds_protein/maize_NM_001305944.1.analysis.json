@@ -1,0 +1,89 @@
+{
+  "transcript_accession": "NM_001305944.1",
+  "annotation": {
+    "transcript_accession": "NM_001305944.1",
+    "start": 156,
+    "end": 1259,
+    "coordinate_system": "1-based inclusive",
+    "location": "156..1259",
+    "strand": 1,
+    "codon_start": 1,
+    "translation_table": 1,
+    "protein_accession": "NP_001292873.1",
+    "reference_translation": "MTLDQNHAMPMQPPALQPGRAYGAEGSAVVHGSIRTVAGGPTLALNECQILVQQKPQGDSRLLASNLWKKRPRRSRDGPTSVAAVIQRWAERNKHLEYEESEEAKRPRKAPAKGSKKGCMKGKGGPDNTQCGYRGVRQRTWGKWVAEIREPNRVDRLWLGTFPTAEDAARAYDEAARAMYGDLARTNFPGQDATTSAQAALSSTSAQAAPTAVEALQTGTSCESTTTSNHSDIASTSHKLEASDISSYLKEKCPAGSCGIQDGTPIVADKEVFGPLEPITNLPDGGDGFDIGEMLRMMESDPHNAGGADAGMGQPWYLDELDSSVLESMLQPEPEPEPEPFLMSEEPDMFLAGFESAGFVEGLERLN",
+    "gene": "LOC732788",
+    "product": "dehydration-responsive element binding protein 2A isoform 1",
+    "qualifiers": {
+      "gene": [
+        "LOC732788"
+      ],
+      "gene_synonym": [
+        "DBP1a; DBP1b; DBP1c; DREB2; DREB2A; GRMZM2G006745; TIDP2952; ZmDREB2A"
+      ],
+      "note": [
+        "isoform 1 is encoded by transcript variant 1; ERF/AP2 domain containing transcription factor; putative AP2/EREBP transcription factor superfamily protein; dehydration responsive element binding protein 2; DRE-binding protein 1a; Dehydration-responsive element-binding protein 2A; DRE-binding protein 1b"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "1"
+      ],
+      "product": [
+        "dehydration-responsive element binding protein 2A isoform 1"
+      ],
+      "protein_id": [
+        "NP_001292873.1"
+      ],
+      "db_xref": [
+        "GeneID:732788"
+      ],
+      "translation": [
+        "MTLDQNHAMPMQPPALQPGRAYGAEGSAVVHGSIRTVAGGPTLALNECQILVQQKPQGDSRLLASNLWKKRPRRSRDGPTSVAAVIQRWAERNKHLEYEESEEAKRPRKAPAKGSKKGCMKGKGGPDNTQCGYRGVRQRTWGKWVAEIREPNRVDRLWLGTFPTAEDAARAYDEAARAMYGDLARTNFPGQDATTSAQAALSSTSAQAAPTAVEALQTGTSCESTTTSNHSDIASTSHKLEASDISSYLKEKCPAGSCGIQDGTPIVADKEVFGPLEPITNLPDGGDGFDIGEMLRMMESDPHNAGGADAGMGQPWYLDELDSSVLESMLQPEPEPEPEPFLMSEEPDMFLAGFESAGFVEGLERLN"
+      ]
+    },
+    "record_title": "Zea mays DRE-binding protein 1c (LOC732788), transcript variant 1, mRNA"
+  },
+  "transcript_length": 1507,
+  "cds_sequence": "ATGACGCTGGATCAGAACCATGCCATGCCGATGCAGCCCCCGGCCCTGCAGCCCGGAAGAGCATATGGAGCAGAGGGCAGTGCTGTGGTGCATGGTTCCATCAGAACAGTAGCAGGAGGCCCTACTCTTGCCTTGAATGAGTGCCAGATTTTGGTACAGCAGAAACCCCAGGGAGATTCACGACTGCTGGCCTCTAATCTGTGGAAGAAGCGACCTCGCAGATCACGAGATGGGCCTACGTCAGTGGCAGCTGTCATCCAGCGGTGGGCTGAGCGCAACAAGCATTTGGAGTATGAGGAATCTGAGGAGGCAAAGCGACCAAGAAAAGCACCTGCAAAGGGTTCAAAGAAGGGCTGTATGAAGGGAAAAGGGGGGCCTGACAATACTCAATGTGGATACCGTGGAGTGAGGCAGCGTACTTGGGGGAAGTGGGTTGCTGAAATAAGAGAGCCAAATCGTGTCGACAGACTCTGGCTGGGTACCTTCCCAACCGCGGAGGATGCAGCTAGGGCCTATGATGAGGCAGCCAGAGCGATGTATGGAGACTTGGCACGGACTAACTTCCCCGGACAGGATGCAACAACCTCTGCCCAAGCTGCTCTATCATCGACCTCTGCCCAGGCTGCTCCAACAGCTGTTGAAGCTCTTCAGACTGGCACGTCATGCGAGTCGACAACGACATCAAATCACTCGGACATCGCATCCACCTCACACAAGCTTGAAGCCTCTGACATCTCGAGCTACCTAAAGGAAAAATGTCCAGCTGGATCATGTGGTATCCAAGACGGCACACCCATTGTAGCTGACAAGGAGGTCTTTGGGCCGTTGGAGCCTATCACAAATCTTCCAGATGGTGGTGATGGTTTTGATATCGGTGAGATGCTGAGGATGATGGAAAGCGATCCACATAATGCAGGTGGAGCCGACGCTGGCATGGGACAGCCCTGGTATCTTGATGAGCTGGATTCGAGTGTCTTAGAGAGCATGCTCCAGCCGGAGCCGGAGCCAGAGCCAGAGCCATTCCTGATGTCTGAAGAACCGGACATGTTTCTTGCTGGCTTCGAAAGCGCTGGTTTCGTCGAGGGTCTGGAGCGGCTAAACTGA",
+  "cds_length": 1104,
+  "five_prime_utr_length": 155,
+  "three_prime_utr_length": 248,
+  "start_codon": "ATG",
+  "terminal_stop_codon": "TGA",
+  "protein_sequence": "MTLDQNHAMPMQPPALQPGRAYGAEGSAVVHGSIRTVAGGPTLALNECQILVQQKPQGDSRLLASNLWKKRPRRSRDGPTSVAAVIQRWAERNKHLEYEESEEAKRPRKAPAKGSKKGCMKGKGGPDNTQCGYRGVRQRTWGKWVAEIREPNRVDRLWLGTFPTAEDAARAYDEAARAMYGDLARTNFPGQDATTSAQAALSSTSAQAAPTAVEALQTGTSCESTTTSNHSDIASTSHKLEASDISSYLKEKCPAGSCGIQDGTPIVADKEVFGPLEPITNLPDGGDGFDIGEMLRMMESDPHNAGGADAGMGQPWYLDELDSSVLESMLQPEPEPEPEPFLMSEEPDMFLAGFESAGFVEGLERLN",
+  "protein_length": 367,
+  "annotated_translation_match": true,
+  "reference_protein_match": true,
+  "validation_status": "validated",
+  "discrepancies": [],
+  "limitations": [
+    "Complete positive-strand single-interval CDS; explicit codon_start=1 and table 1 only.",
+    "Sequence agreement does not establish phenotype, function, or orthology."
+  ],
+  "provenance": {
+    "scientific_name": "Zea mays",
+    "gene_id": "732788",
+    "refseq_status": "VALIDATED",
+    "record_title": "Zea mays DRE-binding protein 1c (LOC732788), transcript variant 1, mRNA",
+    "reference_annotation_limitations": [
+      "Record title and annotated CDS product wording differ; retained verbatim without reconciling gene names."
+    ],
+    "transcript_source_url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_001305944.1",
+    "protein_source_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001292873.1",
+    "retrieval_timestamp": "2026-11-11T12:30:36.518667+00:00",
+    "input_checksums": {
+      "maize_NM_001305944.1.fasta": "ae9fb1ddd0238b9c81d981172b8dbded9aeef159469332ffab65ef8b32a377bc",
+      "manifest.json": "d62b1b828fed585adedfedddac364a77e37bc4048eb8f218201b80202ff234b3",
+      "maize_NM_001305944.1.annotation.xml": "d8d62bbbdea9875514b93ec1cd9880f4bbcf7272fe73dd3c3b150c423a4c98cf",
+      "maize_NM_001305944.1.reference_protein.fasta": "0d4454025bcf7e0b794b3e05b4b4c6c4c35f627dda0a65b31d5f6b3b05a82dc1"
+    },
+    "output_checksums": {
+      "maize_NM_001305944.1.annotation.xml": "d8d62bbbdea9875514b93ec1cd9880f4bbcf7272fe73dd3c3b150c423a4c98cf",
+      "maize_NM_001305944.1.reference_protein.fasta": "0d4454025bcf7e0b794b3e05b4b4c6c4c35f627dda0a65b31d5f6b3b05a82dc1",
+      "maize_NM_001305944.1.cds.fasta": "aa24ed90e71ee18b2941bf300175eb4185cdc2e3fccbe2fd3cd99dbcd0f50d2a",
+      "maize_NM_001305944.1.protein.fasta": "b325bbc94cafa2aad5d0ac6835ce8fe6335dc8a147bc1ac7c51a390d8ef0a126"
+    },
+    "reference_protein_description": "NP_001292873.1 dehydration-responsive element binding protein 2A isoform 1 [Zea mays]"
+  }
+}

@@ -44,8 +44,10 @@ class NCBIClient:
         self.email = email
         self.last_request = None
 
-    def fetch(self, accession: str, rettype: str, retmode: str) -> bytes:
-        params = {"db": "nuccore", "id": accession, "rettype": rettype,
+    def fetch(self, accession: str, rettype: str, retmode: str, *, db: str = "nuccore") -> bytes:
+        if db not in {"nuccore", "protein"}:
+            raise ValueError("Only nuccore and protein retrieval is supported.")
+        params = {"db": db, "id": accession, "rettype": rettype,
                   "retmode": retmode, "tool": "AgroGenomeEval", "email": self.email}
         url = BASE + "?" + urlencode(params)
         for attempt in range(3):

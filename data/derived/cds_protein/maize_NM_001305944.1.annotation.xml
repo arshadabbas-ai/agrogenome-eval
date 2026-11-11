@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE GBSet PUBLIC "-//NCBI//NCBI GBSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/NCBI_GBSeq.dtd">
+<GBSet>
+  <GBSeq>
+
+    <GBSeq_locus>NM_001305944</GBSeq_locus>
+    <GBSeq_length>1507</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PLN</GBSeq_division>
+    <GBSeq_update-date>30-APR-2021</GBSeq_update-date>
+    <GBSeq_create-date>09-APR-2015</GBSeq_create-date>
+    <GBSeq_definition>Zea mays DRE-binding protein 1c (LOC732788), transcript variant 1, mRNA</GBSeq_definition>
+    <GBSeq_primary-accession>NM_001305944</GBSeq_primary-accession>
+    <GBSeq_accession-version>NM_001305944.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>ref|NM_001305944.1|</GBSeqid>
+      <GBSeqid>gi|806638718</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_secondary-accessions>
+      <GBSecondary-accn>XM_008657226</GBSecondary-accn>
+    </GBSeq_secondary-accessions>
+    <GBSeq_keywords>
+      <GBKeyword>RefSeq</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Zea mays</GBSeq_source>
+    <GBSeq_organism>Zea mays</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta; Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; PACMAD clade; Panicoideae; Andropogonodae; Andropogoneae; Tripsacinae; Zea</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1507</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Han Q</GBAuthor>
+          <GBAuthor>Chen K</GBAuthor>
+          <GBAuthor>Yan D</GBAuthor>
+          <GBAuthor>Hao G</GBAuthor>
+          <GBAuthor>Qi J</GBAuthor>
+          <GBAuthor>Wang C</GBAuthor>
+          <GBAuthor>Dirk LMA</GBAuthor>
+          <GBAuthor>Bruce Downie A</GBAuthor>
+          <GBAuthor>Gong J</GBAuthor>
+          <GBAuthor>Wang J</GBAuthor>
+          <GBAuthor>Zhao T</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>ZmDREB2A regulates ZmGH3.2 and ZmRAFS, shifting metabolism towards seed aging tolerance over seedling growth</GBReference_title>
+        <GBReference_journal>Plant J 104 (1), 268-282 (2020)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1111/tpj.14922</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>32662115</GBReference_pubmed>
+        <GBReference_remark>GeneRIF: ZmDREB2A regulates ZmGH3.2 and ZmRAFS, shifting metabolism towards seed aging tolerance over seedling growth.</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1507</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gu L</GBAuthor>
+          <GBAuthor>Zhang Y</GBAuthor>
+          <GBAuthor>Zhang M</GBAuthor>
+          <GBAuthor>Li T</GBAuthor>
+          <GBAuthor>Dirk LM</GBAuthor>
+          <GBAuthor>Downie B</GBAuthor>
+          <GBAuthor>Zhao T</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>ZmGOLS2, a target of transcription factor ZmDREB2A, offers similar protection against abiotic stress as ZmDREB2A</GBReference_title>
+        <GBReference_journal>Plant Mol Biol 90 (1-2), 157-170 (2016)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s11103-015-0403-1</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>26584560</GBReference_pubmed>
+        <GBReference_remark>GeneRIF: Under stress conditions, both the ZmGOLS2- and the ZmDREB2A- expressing plants had greater germination percentages, greater percentages of seedlings becoming autotropic, and/or greater survival percentages during/after stress than the control plants.</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..1507</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Zhao L</GBAuthor>
+          <GBAuthor>Wang P</GBAuthor>
+          <GBAuthor>Yan S</GBAuthor>
+          <GBAuthor>Gao F</GBAuthor>
+          <GBAuthor>Li H</GBAuthor>
+          <GBAuthor>Hou H</GBAuthor>
+          <GBAuthor>Zhang Q</GBAuthor>
+          <GBAuthor>Tan J</GBAuthor>
+          <GBAuthor>Li L</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Promoter-associated histone acetylation is involved in the osmotic stress-induced transcriptional regulation of the maize ZmDREB2A gene</GBReference_title>
+        <GBReference_journal>Physiol Plant 151 (4), 459-467 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1111/ppl.12136</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24299295</GBReference_pubmed>
+        <GBReference_remark>GeneRIF: Osmotic stress activates the transcription of the ZmDREB2A gene by increasing the levels of acetylated histones H3K9 and H4K5 associated with the ZmDREB2A promoter region.</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>4</GBReference_reference>
+        <GBReference_position>1..1507</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Qin F</GBAuthor>
+          <GBAuthor>Kakimoto M</GBAuthor>
+          <GBAuthor>Sakuma Y</GBAuthor>
+          <GBAuthor>Maruyama K</GBAuthor>
+          <GBAuthor>Osakabe Y</GBAuthor>
+          <GBAuthor>Tran LS</GBAuthor>
+          <GBAuthor>Shinozaki K</GBAuthor>
+          <GBAuthor>Yamaguchi-Shinozaki K</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Regulation and functional analysis of ZmDREB2A in response to drought and heat stresses in Zea mays L</GBReference_title>
+        <GBReference_journal>Plant J 50 (1), 54-69 (2007)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1111/j.1365-313X.2007.03034.x</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>17346263</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>VALIDATED REFSEQ: This record has undergone validation or preliminary review. The reference sequence was derived from CABHLF010000006.1 and BT084225.1.; On Apr 9, 2015 this sequence version replaced XM_008657226.1.; ~Transcript Variant: This variant (1) represents the longest transcript and encodes the longest isoform (1).; ##Evidence-Data-START## ; Transcript exon combination :: FJ805747.1, JF915835.1 [ECO:0000332] ; RNAseq introns :: single sample supports all introns SAMN00780167, SAMN01096142 [ECO:0000348] ; ##Evidence-Data-END##; COMPLETENESS: complete on the 3&apos; end.</GBSeq_comment>
+    <GBSeq_primary>REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP~1-13                CABHLF010000006.1  96775198-96775210~14-1450             BT084225.1         1-1437~1451-1507           CABHLF010000006.1  96778489-96778545</GBSeq_primary>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1507</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1507</GBInterval_to>
+            <GBInterval_accession>NM_001305944.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Zea mays</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cultivar</GBQualifier_name>
+            <GBQualifier_value>B73</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:4577</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>chromosome</GBQualifier_name>
+            <GBQualifier_value>8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>map</GBQualifier_name>
+            <GBQualifier_value>8</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1507</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1507</GBInterval_to>
+            <GBInterval_accession>NM_001305944.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>LOC732788</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>DBP1a; DBP1b; DBP1c; DREB2; DREB2A; GRMZM2G006745; TIDP2952; ZmDREB2A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>DRE-binding protein 1c</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:732788</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>1..214</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>214</GBInterval_to>
+            <GBInterval_accession>NM_001305944.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>LOC732788</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>DBP1a; DBP1b; DBP1c; DREB2; DREB2A; GRMZM2G006745; TIDP2952; ZmDREB2A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>156..1259</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>156</GBInterval_from>
+            <GBInterval_to>1259</GBInterval_to>
+            <GBInterval_accession>NM_001305944.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>LOC732788</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>DBP1a; DBP1b; DBP1c; DREB2; DREB2A; GRMZM2G006745; TIDP2952; ZmDREB2A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>isoform 1 is encoded by transcript variant 1; ERF/AP2 domain containing transcription factor; putative AP2/EREBP transcription factor superfamily protein; dehydration responsive element binding protein 2; DRE-binding protein 1a; Dehydration-responsive element-binding protein 2A; DRE-binding protein 1b</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>dehydration-responsive element binding protein 2A isoform 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>NP_001292873.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:732788</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MTLDQNHAMPMQPPALQPGRAYGAEGSAVVHGSIRTVAGGPTLALNECQILVQQKPQGDSRLLASNLWKKRPRRSRDGPTSVAAVIQRWAERNKHLEYEESEEAKRPRKAPAKGSKKGCMKGKGGPDNTQCGYRGVRQRTWGKWVAEIREPNRVDRLWLGTFPTAEDAARAYDEAARAMYGDLARTNFPGQDATTSAQAALSSTSAQAAPTAVEALQTGTSCESTTTSNHSDIASTSHKLEASDISSYLKEKCPAGSCGIQDGTPIVADKEVFGPLEPITNLPDGGDGFDIGEMLRMMESDPHNAGGADAGMGQPWYLDELDSSVLESMLQPEPEPEPEPFLMSEEPDMFLAGFESAGFVEGLERLN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>215..267</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>215</GBInterval_from>
+            <GBInterval_to>267</GBInterval_to>
+            <GBInterval_accession>NM_001305944.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>LOC732788</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>DBP1a; DBP1b; DBP1c; DREB2; DREB2A; GRMZM2G006745; TIDP2952; ZmDREB2A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>268..358</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>268</GBInterval_from>
+            <GBInterval_to>358</GBInterval_to>
+            <GBInterval_accession>NM_001305944.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>LOC732788</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>DBP1a; DBP1b; DBP1c; DREB2; DREB2A; GRMZM2G006745; TIDP2952; ZmDREB2A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>359..1507</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>359</GBInterval_from>
+            <GBInterval_to>1507</GBInterval_to>
+            <GBInterval_accession>NM_001305944.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>LOC732788</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>DBP1a; DBP1b; DBP1c; DREB2; DREB2A; GRMZM2G006745; TIDP2952; ZmDREB2A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gcttttggattctggtttctctcgtctttctcctccctctcctgacttttcttctagacatctcgcgggtcttatcgactccaacaagaacacactacacaccagccagcgagatagcgaacgctaggaacccagtggccatctttggagcggccatgacgctggatcagaaccatgccatgccgatgcagcccccggccctgcagcccggaagagcatatggagcagagggcagtgctgtggtgcatggttccatcagaacagtagcaggaggccctactcttgccttgaatgagtgccagattttggtacagcagaaaccccagggagattcacgactgctggcctctaatctgtggaagaagcgacctcgcagatcacgagatgggcctacgtcagtggcagctgtcatccagcggtgggctgagcgcaacaagcatttggagtatgaggaatctgaggaggcaaagcgaccaagaaaagcacctgcaaagggttcaaagaagggctgtatgaagggaaaaggggggcctgacaatactcaatgtggataccgtggagtgaggcagcgtacttgggggaagtgggttgctgaaataagagagccaaatcgtgtcgacagactctggctgggtaccttcccaaccgcggaggatgcagctagggcctatgatgaggcagccagagcgatgtatggagacttggcacggactaacttccccggacaggatgcaacaacctctgcccaagctgctctatcatcgacctctgcccaggctgctccaacagctgttgaagctcttcagactggcacgtcatgcgagtcgacaacgacatcaaatcactcggacatcgcatccacctcacacaagcttgaagcctctgacatctcgagctacctaaaggaaaaatgtccagctggatcatgtggtatccaagacggcacacccattgtagctgacaaggaggtctttgggccgttggagcctatcacaaatcttccagatggtggtgatggttttgatatcggtgagatgctgaggatgatggaaagcgatccacataatgcaggtggagccgacgctggcatgggacagccctggtatcttgatgagctggattcgagtgtcttagagagcatgctccagccggagccggagccagagccagagccattcctgatgtctgaagaaccggacatgtttcttgctggcttcgaaagcgctggtttcgtcgagggtctggagcggctaaactgaatttctgatgtttgaccgttgatcctcatcccacttcatgtctgagcttgtgaattcggaggcaaacattggcagaacttataagctctagcaattctaggctttacattcctctgtgatagttctctatgcatgggaactgggtttgcttcacaatttttgtaagaccagaagtgatgtaaatagttcccaccttgtggaaggacaagaaaaaaataaataaaaagagtgcttgctttcgttcctta</GBSeq_sequence>
+  </GBSeq>
+
+</GBSet>

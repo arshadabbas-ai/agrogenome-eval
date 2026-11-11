@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE GBSet PUBLIC "-//NCBI//NCBI GBSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/NCBI_GBSeq.dtd">
+<GBSet>
+  <GBSeq>
+
+    <GBSeq_locus>XM_044542390</GBSeq_locus>
+    <GBSeq_length>1085</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PLN</GBSeq_division>
+    <GBSeq_update-date>18-APR-2025</GBSeq_update-date>
+    <GBSeq_create-date>25-OCT-2021</GBSeq_create-date>
+    <GBSeq_definition>PREDICTED: Triticum aestivum dehydration-responsive element-binding protein 1B (LOC542812), mRNA</GBSeq_definition>
+    <GBSeq_primary-accession>XM_044542390</GBSeq_primary-accession>
+    <GBSeq_accession-version>XM_044542390.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>ref|XM_044542390.1|</GBSeqid>
+      <GBSeqid>gi|2123871350</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA764258</GBSeq_project>
+    <GBSeq_keywords>
+      <GBKeyword>RefSeq</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Triticum aestivum (bread wheat)</GBSeq_source>
+    <GBSeq_organism>Triticum aestivum</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta; Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP clade; Pooideae; Triticodae; Triticeae; Triticinae; Triticum</GBSeq_taxonomy>
+    <GBSeq_comment>MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NC_057808.1) annotated using gene prediction method: Gnomon.~Also see:~ Documentation of NCBI&apos;s Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI RefSeq ; Annotation Status :: Updated annotation ; Annotation Name :: GCF_018294505.1-RS_2025_04 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 10.3 ; Annotation Method :: Best-placed RefSeq; Gnomon; cmsearch; tRNAscan-SE ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; Annotation Date :: 04/16/2025 ; ##Genome-Annotation-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1085</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1085</GBInterval_to>
+            <GBInterval_accession>XM_044542390.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Triticum aestivum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cultivar</GBQualifier_name>
+            <GBQualifier_value>Chinese Spring</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:4565</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>chromosome</GBQualifier_name>
+            <GBQualifier_value>5D</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>tissue_type</GBQualifier_name>
+            <GBQualifier_value>leaf</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>dev_stage</GBQualifier_name>
+            <GBQualifier_value>Vegetative</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>USA: Davis, California</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1085</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1085</GBInterval_to>
+            <GBInterval_accession>XM_044542390.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>LOC542812</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>dehydration-responsive element-binding protein 1B; Derived by automated computational analysis using gene prediction method: Gnomon. Supporting evidence includes similarity to: 71 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 4 samples with support for all annotated introns</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:542812</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>96..734</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>96</GBInterval_from>
+            <GBInterval_to>734</GBInterval_to>
+            <GBInterval_accession>XM_044542390.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>LOC542812</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>dehydration-responsive element-binding protein 1B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>XP_044398325.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:542812</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDTAAAGSPREGHRTVCSEPPKRPAGRTKFRETRHPLYRGVRRRGRLGQWVCEVRVRGAQGYRLWLGTFTTAEMAARAHDSAVLALLDRAACLNFADSAWRMLPVLAAGSSRFSSAREIKDAVAIAVLEFQRQRPVVSTSEMHDGEKDAQGSPTPSELSTSSDLLDEHWFGGMDAGSYYASLAQGMLMEPPSARTWSEDGGEYSAVYTPLWN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>polyA_site</GBFeature_key>
+        <GBFeature_location>1085</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_point>1085</GBInterval_point>
+            <GBInterval_accession>XM_044542390.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>LOC542812</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>experiment</GBQualifier_name>
+            <GBQualifier_value>COORDINATES: polyA evidence [ECO:0006239]</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cctcggttcccttcttctcatcccaactcgaccgctcaaaccaacctgcaactctcaacgcagcgactttccactagtttttgacgctgcaactgatggacaccgccgctgccggctccccgcgtgaggggcacaggacggtgtgctcggagccgcccaagaggccggcagggcggaccaagttcagggagacgcgccacccgctgtaccgcggcgtgcggcgccggggccggctcgggcagtgggtgtgcgaggttcgcgtgcgcggcgcgcaagggtacaggctctggctcggcaccttcaccactgccgagatggcggcgcgcgcgcacgactccgccgtgctcgcgctcctcgaccgcgccgcctgcctcaacttcgccgactccgcctggcggatgctgcccgtcctcgcggctggctcgtcccgcttcagcagcgcgcgggagatcaaggacgccgtcgccatcgccgtcctggagttccagcggcagcgccccgtcgtgtcaacgtcggagatgcacgacggcgaaaaggacgcccaaggctcgccgacgccgagcgagctgtccacgtccagcgacttgttggacgagcactggtttggcggcatggacgccggctcgtactacgcgagcttggcgcaggggatgctcatggagccgccgtccgccagaacgtggagcgaggatggcggcgaatacagcgccgtctacacgccgctttggaactaattatccgactaattaagccatggaaggactgaatttgtctatcaagaccaaagaaaaatgaccatatctggtagtctcacaggtgcactgaatctccatggaccggaatcaatcaaaatatcttatgacaacatggagaagaaaacgacaaatgaaaaggacgtcgctgttgagtgatacaacttgagataatggttgttggacagattatatgccaaagcatacgattccttctgcgagtctaaaatatctcgactgttagagttgtgttgactatgatgtacaatgtaggttacagttggacttgtagtattattgtgtttcgaaaggatatggagtcgtgttctaata</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA764258</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>
+
+</GBSet>
