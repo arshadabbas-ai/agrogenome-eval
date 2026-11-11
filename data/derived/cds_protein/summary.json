@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "transcript_accession": "NM_001305944.1",
+      "status": "validated",
+      "analysis_file": "maize_NM_001305944.1.analysis.json",
+      "checksums": {
+        "maize_NM_001305944.1.annotation.xml": "d8d62bbbdea9875514b93ec1cd9880f4bbcf7272fe73dd3c3b150c423a4c98cf",
+        "maize_NM_001305944.1.reference_protein.fasta": "0d4454025bcf7e0b794b3e05b4b4c6c4c35f627dda0a65b31d5f6b3b05a82dc1",
+        "maize_NM_001305944.1.cds.fasta": "aa24ed90e71ee18b2941bf300175eb4185cdc2e3fccbe2fd3cd99dbcd0f50d2a",
+        "maize_NM_001305944.1.protein.fasta": "b325bbc94cafa2aad5d0ac6835ce8fe6335dc8a147bc1ac7c51a390d8ef0a126",
+        "maize_NM_001305944.1.analysis.json": "15c5ef6f58ae9d647dba258f4ec66d4ba27c514b306cbd49714f4f23f94d74f9"
+      }
+    },
+    {
+      "transcript_accession": "XM_044542390.1",
+      "status": "validated",
+      "analysis_file": "wheat_XM_044542390.1.analysis.json",
+      "checksums": {
+        "wheat_XM_044542390.1.annotation.xml": "bb5ab5074e547493d0d08e23fdcf1dd45e991f3c74e4e7ca4154956d22f44726",
+        "wheat_XM_044542390.1.reference_protein.fasta": "ff5f754ef1f68646679e8d677c9df9d732d11824315739374d5c85f4d61bf148",
+        "wheat_XM_044542390.1.cds.fasta": "e54ac4897e74a757b4f87d65e346785d018b9d8cc3354b8958cdc5c199fb1fa9",
+        "wheat_XM_044542390.1.protein.fasta": "71757ace84434ecf7d1ac44c9436797aad6642cf24dd5286b960a2abd8728837",
+        "wheat_XM_044542390.1.analysis.json": "87f66366f5662c7b6a93da393fc28e8ff2c1946f3695fc608a6b2c70b5f30ddd"
+      }
+    }
+  ],
+  "reference_manifest_sha256": "d62b1b828fed585adedfedddac364a77e37bc4048eb8f218201b80202ff234b3",
+  "limitations": [
+    "Derived from transcript CDS annotations, not genomic coordinates.",
+    "RefSeq curation status is distinct from sequence validation status.",
+    "No functional equivalence, orthology, or phenotype inference."
+  ]
+}

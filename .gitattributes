@@ -1,2 +1,4 @@
 # Preserve exact NCBI FASTA bytes for manifest SHA-256 checksums on every OS.
 data/reference/*.fasta -text
+# Derived evidence and serialized reports have byte-level provenance hashes.
+data/derived/cds_protein/* -text
