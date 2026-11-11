@@ -1,0 +1,696 @@
+{
+  "description": "Hypothetical computational substitutions, not experimentally observed natural mutations or verified crop alleles.",
+  "limitations": [
+    "All examples are computationally introduced, not natural crop alleles.",
+    "No expression, splicing, RNA-stability, phenotype or crop-performance inference."
+  ],
+  "results": [
+    {
+      "annotation_limitations": [
+        "Record title and annotated CDS product wording differ; retained verbatim without reconciling gene names."
+      ],
+      "example": {
+        "alternative": "A",
+        "expected": {
+          "analysis_status": "ASSESSED",
+          "molecular_consequence": "SYNONYMOUS",
+          "transcript_region": "CDS",
+          "unsupported_region": null
+        },
+        "id": "maize_synonymous",
+        "origin": "computationally_introduced_hypothetical_substitution",
+        "position": 161,
+        "reference": "G",
+        "transcript_accession": "NM_001305944.1"
+      },
+      "record_title": "Zea mays DRE-binding protein 1c (LOC732788), transcript variant 1, mRNA",
+      "result": {
+        "alternative": "A",
+        "alternative_amino_acid": "T",
+        "alternative_codon": "ACA",
+        "analysis_status": "ASSESSED",
+        "cds_end": 1259,
+        "cds_position": 6,
+        "cds_start": 156,
+        "codon_number": 2,
+        "coordinate_system": "1-based inclusive transcript",
+        "gene_id": "732788",
+        "limitations": [
+          "Single-nucleotide substitutions in annotated transcripts only; not genomic coordinates.",
+          "Internal CDS consequences describe sequence-level changes, not function, phenotype, or orthology.",
+          "UTR, start-codon, and terminal-stop-codon protein consequences are not assessed."
+        ],
+        "molecular_consequence": "SYNONYMOUS",
+        "not_assessed_reason": null,
+        "protein_accession": "NP_001292873.1",
+        "reference": "G",
+        "reference_amino_acid": "T",
+        "reference_codon": "ACG",
+        "refseq_status": "VALIDATED",
+        "scientific_name": "Zea mays",
+        "transcript_accession": "NM_001305944.1",
+        "transcript_position": 161,
+        "transcript_region": "CDS",
+        "unsupported_region": null
+      },
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_001305944.1"
+    },
+    {
+      "annotation_limitations": [
+        "Record title and annotated CDS product wording differ; retained verbatim without reconciling gene names."
+      ],
+      "example": {
+        "alternative": "C",
+        "expected": {
+          "analysis_status": "ASSESSED",
+          "molecular_consequence": "MISSENSE",
+          "transcript_region": "CDS",
+          "unsupported_region": null
+        },
+        "id": "maize_missense",
+        "origin": "computationally_introduced_hypothetical_substitution",
+        "position": 159,
+        "reference": "A",
+        "transcript_accession": "NM_001305944.1"
+      },
+      "record_title": "Zea mays DRE-binding protein 1c (LOC732788), transcript variant 1, mRNA",
+      "result": {
+        "alternative": "C",
+        "alternative_amino_acid": "P",
+        "alternative_codon": "CCG",
+        "analysis_status": "ASSESSED",
+        "cds_end": 1259,
+        "cds_position": 4,
+        "cds_start": 156,
+        "codon_number": 2,
+        "coordinate_system": "1-based inclusive transcript",
+        "gene_id": "732788",
+        "limitations": [
+          "Single-nucleotide substitutions in annotated transcripts only; not genomic coordinates.",
+          "Internal CDS consequences describe sequence-level changes, not function, phenotype, or orthology.",
+          "UTR, start-codon, and terminal-stop-codon protein consequences are not assessed."
+        ],
+        "molecular_consequence": "MISSENSE",
+        "not_assessed_reason": null,
+        "protein_accession": "NP_001292873.1",
+        "reference": "A",
+        "reference_amino_acid": "T",
+        "reference_codon": "ACG",
+        "refseq_status": "VALIDATED",
+        "scientific_name": "Zea mays",
+        "transcript_accession": "NM_001305944.1",
+        "transcript_position": 159,
+        "transcript_region": "CDS",
+        "unsupported_region": null
+      },
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_001305944.1"
+    },
+    {
+      "annotation_limitations": [
+        "Record title and annotated CDS product wording differ; retained verbatim without reconciling gene names."
+      ],
+      "example": {
+        "alternative": "T",
+        "expected": {
+          "analysis_status": "ASSESSED",
+          "molecular_consequence": "STOP_GAINED",
+          "transcript_region": "CDS",
+          "unsupported_region": null
+        },
+        "id": "maize_stop_gained",
+        "origin": "computationally_introduced_hypothetical_substitution",
+        "position": 168,
+        "reference": "C",
+        "transcript_accession": "NM_001305944.1"
+      },
+      "record_title": "Zea mays DRE-binding protein 1c (LOC732788), transcript variant 1, mRNA",
+      "result": {
+        "alternative": "T",
+        "alternative_amino_acid": "*",
+        "alternative_codon": "TAG",
+        "analysis_status": "ASSESSED",
+        "cds_end": 1259,
+        "cds_position": 13,
+        "cds_start": 156,
+        "codon_number": 5,
+        "coordinate_system": "1-based inclusive transcript",
+        "gene_id": "732788",
+        "limitations": [
+          "Single-nucleotide substitutions in annotated transcripts only; not genomic coordinates.",
+          "Internal CDS consequences describe sequence-level changes, not function, phenotype, or orthology.",
+          "UTR, start-codon, and terminal-stop-codon protein consequences are not assessed."
+        ],
+        "molecular_consequence": "STOP_GAINED",
+        "not_assessed_reason": null,
+        "protein_accession": "NP_001292873.1",
+        "reference": "C",
+        "reference_amino_acid": "Q",
+        "reference_codon": "CAG",
+        "refseq_status": "VALIDATED",
+        "scientific_name": "Zea mays",
+        "transcript_accession": "NM_001305944.1",
+        "transcript_position": 168,
+        "transcript_region": "CDS",
+        "unsupported_region": null
+      },
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_001305944.1"
+    },
+    {
+      "annotation_limitations": [
+        "Record title and annotated CDS product wording differ; retained verbatim without reconciling gene names."
+      ],
+      "example": {
+        "alternative": "A",
+        "expected": {
+          "analysis_status": "NOT_ASSESSED",
+          "molecular_consequence": null,
+          "transcript_region": "FIVE_PRIME_UTR",
+          "unsupported_region": null
+        },
+        "id": "maize_five_prime_utr",
+        "origin": "computationally_introduced_hypothetical_substitution",
+        "position": 1,
+        "reference": "G",
+        "transcript_accession": "NM_001305944.1"
+      },
+      "record_title": "Zea mays DRE-binding protein 1c (LOC732788), transcript variant 1, mRNA",
+      "result": {
+        "alternative": "A",
+        "alternative_amino_acid": null,
+        "alternative_codon": null,
+        "analysis_status": "NOT_ASSESSED",
+        "cds_end": 1259,
+        "cds_position": null,
+        "cds_start": 156,
+        "codon_number": null,
+        "coordinate_system": "1-based inclusive transcript",
+        "gene_id": "732788",
+        "limitations": [
+          "Single-nucleotide substitutions in annotated transcripts only; not genomic coordinates.",
+          "Internal CDS consequences describe sequence-level changes, not function, phenotype, or orthology.",
+          "UTR, start-codon, and terminal-stop-codon protein consequences are not assessed."
+        ],
+        "molecular_consequence": null,
+        "not_assessed_reason": "UTR substitution: no protein consequence or RNA/regulatory effect is assessed.",
+        "protein_accession": "NP_001292873.1",
+        "reference": "G",
+        "reference_amino_acid": null,
+        "reference_codon": null,
+        "refseq_status": "VALIDATED",
+        "scientific_name": "Zea mays",
+        "transcript_accession": "NM_001305944.1",
+        "transcript_position": 1,
+        "transcript_region": "FIVE_PRIME_UTR",
+        "unsupported_region": null
+      },
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_001305944.1"
+    },
+    {
+      "annotation_limitations": [
+        "Record title and annotated CDS product wording differ; retained verbatim without reconciling gene names."
+      ],
+      "example": {
+        "alternative": "C",
+        "expected": {
+          "analysis_status": "NOT_ASSESSED",
+          "molecular_consequence": null,
+          "transcript_region": "THREE_PRIME_UTR",
+          "unsupported_region": null
+        },
+        "id": "maize_three_prime_utr",
+        "origin": "computationally_introduced_hypothetical_substitution",
+        "position": 1260,
+        "reference": "A",
+        "transcript_accession": "NM_001305944.1"
+      },
+      "record_title": "Zea mays DRE-binding protein 1c (LOC732788), transcript variant 1, mRNA",
+      "result": {
+        "alternative": "C",
+        "alternative_amino_acid": null,
+        "alternative_codon": null,
+        "analysis_status": "NOT_ASSESSED",
+        "cds_end": 1259,
+        "cds_position": null,
+        "cds_start": 156,
+        "codon_number": null,
+        "coordinate_system": "1-based inclusive transcript",
+        "gene_id": "732788",
+        "limitations": [
+          "Single-nucleotide substitutions in annotated transcripts only; not genomic coordinates.",
+          "Internal CDS consequences describe sequence-level changes, not function, phenotype, or orthology.",
+          "UTR, start-codon, and terminal-stop-codon protein consequences are not assessed."
+        ],
+        "molecular_consequence": null,
+        "not_assessed_reason": "UTR substitution: no protein consequence or RNA/regulatory effect is assessed.",
+        "protein_accession": "NP_001292873.1",
+        "reference": "A",
+        "reference_amino_acid": null,
+        "reference_codon": null,
+        "refseq_status": "VALIDATED",
+        "scientific_name": "Zea mays",
+        "transcript_accession": "NM_001305944.1",
+        "transcript_position": 1260,
+        "transcript_region": "THREE_PRIME_UTR",
+        "unsupported_region": null
+      },
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_001305944.1"
+    },
+    {
+      "annotation_limitations": [
+        "Record title and annotated CDS product wording differ; retained verbatim without reconciling gene names."
+      ],
+      "example": {
+        "alternative": "C",
+        "expected": {
+          "analysis_status": "UNSUPPORTED",
+          "molecular_consequence": null,
+          "transcript_region": "CDS",
+          "unsupported_region": "START_CODON"
+        },
+        "id": "maize_start_codon",
+        "origin": "computationally_introduced_hypothetical_substitution",
+        "position": 156,
+        "reference": "A",
+        "transcript_accession": "NM_001305944.1"
+      },
+      "record_title": "Zea mays DRE-binding protein 1c (LOC732788), transcript variant 1, mRNA",
+      "result": {
+        "alternative": "C",
+        "alternative_amino_acid": null,
+        "alternative_codon": null,
+        "analysis_status": "UNSUPPORTED",
+        "cds_end": 1259,
+        "cds_position": 1,
+        "cds_start": 156,
+        "codon_number": 1,
+        "coordinate_system": "1-based inclusive transcript",
+        "gene_id": "732788",
+        "limitations": [
+          "Single-nucleotide substitutions in annotated transcripts only; not genomic coordinates.",
+          "Internal CDS consequences describe sequence-level changes, not function, phenotype, or orthology.",
+          "UTR, start-codon, and terminal-stop-codon protein consequences are not assessed."
+        ],
+        "molecular_consequence": null,
+        "not_assessed_reason": "The existing classifier excludes this boundary codon; no start-lost or stop-lost prediction is made.",
+        "protein_accession": "NP_001292873.1",
+        "reference": "A",
+        "reference_amino_acid": null,
+        "reference_codon": null,
+        "refseq_status": "VALIDATED",
+        "scientific_name": "Zea mays",
+        "transcript_accession": "NM_001305944.1",
+        "transcript_position": 156,
+        "transcript_region": "CDS",
+        "unsupported_region": "START_CODON"
+      },
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_001305944.1"
+    },
+    {
+      "annotation_limitations": [
+        "Record title and annotated CDS product wording differ; retained verbatim without reconciling gene names."
+      ],
+      "example": {
+        "alternative": "C",
+        "expected": {
+          "analysis_status": "UNSUPPORTED",
+          "molecular_consequence": null,
+          "transcript_region": "CDS",
+          "unsupported_region": "TERMINAL_STOP_CODON"
+        },
+        "id": "maize_terminal_stop_codon",
+        "origin": "computationally_introduced_hypothetical_substitution",
+        "position": 1259,
+        "reference": "A",
+        "transcript_accession": "NM_001305944.1"
+      },
+      "record_title": "Zea mays DRE-binding protein 1c (LOC732788), transcript variant 1, mRNA",
+      "result": {
+        "alternative": "C",
+        "alternative_amino_acid": null,
+        "alternative_codon": null,
+        "analysis_status": "UNSUPPORTED",
+        "cds_end": 1259,
+        "cds_position": 1104,
+        "cds_start": 156,
+        "codon_number": 368,
+        "coordinate_system": "1-based inclusive transcript",
+        "gene_id": "732788",
+        "limitations": [
+          "Single-nucleotide substitutions in annotated transcripts only; not genomic coordinates.",
+          "Internal CDS consequences describe sequence-level changes, not function, phenotype, or orthology.",
+          "UTR, start-codon, and terminal-stop-codon protein consequences are not assessed."
+        ],
+        "molecular_consequence": null,
+        "not_assessed_reason": "The existing classifier excludes this boundary codon; no start-lost or stop-lost prediction is made.",
+        "protein_accession": "NP_001292873.1",
+        "reference": "A",
+        "reference_amino_acid": null,
+        "reference_codon": null,
+        "refseq_status": "VALIDATED",
+        "scientific_name": "Zea mays",
+        "transcript_accession": "NM_001305944.1",
+        "transcript_position": 1259,
+        "transcript_region": "CDS",
+        "unsupported_region": "TERMINAL_STOP_CODON"
+      },
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_001305944.1"
+    },
+    {
+      "annotation_limitations": [],
+      "example": {
+        "alternative": "T",
+        "expected": {
+          "analysis_status": "ASSESSED",
+          "molecular_consequence": "SYNONYMOUS",
+          "transcript_region": "CDS",
+          "unsupported_region": null
+        },
+        "id": "wheat_synonymous",
+        "origin": "computationally_introduced_hypothetical_substitution",
+        "position": 101,
+        "reference": "C",
+        "transcript_accession": "XM_044542390.1"
+      },
+      "record_title": "PREDICTED: Triticum aestivum dehydration-responsive element-binding protein 1B (LOC542812), mRNA",
+      "result": {
+        "alternative": "T",
+        "alternative_amino_acid": "D",
+        "alternative_codon": "GAT",
+        "analysis_status": "ASSESSED",
+        "cds_end": 734,
+        "cds_position": 6,
+        "cds_start": 96,
+        "codon_number": 2,
+        "coordinate_system": "1-based inclusive transcript",
+        "gene_id": "542812",
+        "limitations": [
+          "Single-nucleotide substitutions in annotated transcripts only; not genomic coordinates.",
+          "Internal CDS consequences describe sequence-level changes, not function, phenotype, or orthology.",
+          "UTR, start-codon, and terminal-stop-codon protein consequences are not assessed."
+        ],
+        "molecular_consequence": "SYNONYMOUS",
+        "not_assessed_reason": null,
+        "protein_accession": "XP_044398325.1",
+        "reference": "C",
+        "reference_amino_acid": "D",
+        "reference_codon": "GAC",
+        "refseq_status": "MODEL",
+        "scientific_name": "Triticum aestivum",
+        "transcript_accession": "XM_044542390.1",
+        "transcript_position": 101,
+        "transcript_region": "CDS",
+        "unsupported_region": null
+      },
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/XM_044542390.1"
+    },
+    {
+      "annotation_limitations": [],
+      "example": {
+        "alternative": "A",
+        "expected": {
+          "analysis_status": "ASSESSED",
+          "molecular_consequence": "MISSENSE",
+          "transcript_region": "CDS",
+          "unsupported_region": null
+        },
+        "id": "wheat_missense",
+        "origin": "computationally_introduced_hypothetical_substitution",
+        "position": 99,
+        "reference": "G",
+        "transcript_accession": "XM_044542390.1"
+      },
+      "record_title": "PREDICTED: Triticum aestivum dehydration-responsive element-binding protein 1B (LOC542812), mRNA",
+      "result": {
+        "alternative": "A",
+        "alternative_amino_acid": "N",
+        "alternative_codon": "AAC",
+        "analysis_status": "ASSESSED",
+        "cds_end": 734,
+        "cds_position": 4,
+        "cds_start": 96,
+        "codon_number": 2,
+        "coordinate_system": "1-based inclusive transcript",
+        "gene_id": "542812",
+        "limitations": [
+          "Single-nucleotide substitutions in annotated transcripts only; not genomic coordinates.",
+          "Internal CDS consequences describe sequence-level changes, not function, phenotype, or orthology.",
+          "UTR, start-codon, and terminal-stop-codon protein consequences are not assessed."
+        ],
+        "molecular_consequence": "MISSENSE",
+        "not_assessed_reason": null,
+        "protein_accession": "XP_044398325.1",
+        "reference": "G",
+        "reference_amino_acid": "D",
+        "reference_codon": "GAC",
+        "refseq_status": "MODEL",
+        "scientific_name": "Triticum aestivum",
+        "transcript_accession": "XM_044542390.1",
+        "transcript_position": 99,
+        "transcript_region": "CDS",
+        "unsupported_region": null
+      },
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/XM_044542390.1"
+    },
+    {
+      "annotation_limitations": [],
+      "example": {
+        "alternative": "T",
+        "expected": {
+          "analysis_status": "ASSESSED",
+          "molecular_consequence": "STOP_GAINED",
+          "transcript_region": "CDS",
+          "unsupported_region": null
+        },
+        "id": "wheat_stop_gained",
+        "origin": "computationally_introduced_hypothetical_substitution",
+        "position": 126,
+        "reference": "G",
+        "transcript_accession": "XM_044542390.1"
+      },
+      "record_title": "PREDICTED: Triticum aestivum dehydration-responsive element-binding protein 1B (LOC542812), mRNA",
+      "result": {
+        "alternative": "T",
+        "alternative_amino_acid": "*",
+        "alternative_codon": "TAG",
+        "analysis_status": "ASSESSED",
+        "cds_end": 734,
+        "cds_position": 31,
+        "cds_start": 96,
+        "codon_number": 11,
+        "coordinate_system": "1-based inclusive transcript",
+        "gene_id": "542812",
+        "limitations": [
+          "Single-nucleotide substitutions in annotated transcripts only; not genomic coordinates.",
+          "Internal CDS consequences describe sequence-level changes, not function, phenotype, or orthology.",
+          "UTR, start-codon, and terminal-stop-codon protein consequences are not assessed."
+        ],
+        "molecular_consequence": "STOP_GAINED",
+        "not_assessed_reason": null,
+        "protein_accession": "XP_044398325.1",
+        "reference": "G",
+        "reference_amino_acid": "E",
+        "reference_codon": "GAG",
+        "refseq_status": "MODEL",
+        "scientific_name": "Triticum aestivum",
+        "transcript_accession": "XM_044542390.1",
+        "transcript_position": 126,
+        "transcript_region": "CDS",
+        "unsupported_region": null
+      },
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/XM_044542390.1"
+    },
+    {
+      "annotation_limitations": [],
+      "example": {
+        "alternative": "A",
+        "expected": {
+          "analysis_status": "NOT_ASSESSED",
+          "molecular_consequence": null,
+          "transcript_region": "FIVE_PRIME_UTR",
+          "unsupported_region": null
+        },
+        "id": "wheat_five_prime_utr",
+        "origin": "computationally_introduced_hypothetical_substitution",
+        "position": 1,
+        "reference": "C",
+        "transcript_accession": "XM_044542390.1"
+      },
+      "record_title": "PREDICTED: Triticum aestivum dehydration-responsive element-binding protein 1B (LOC542812), mRNA",
+      "result": {
+        "alternative": "A",
+        "alternative_amino_acid": null,
+        "alternative_codon": null,
+        "analysis_status": "NOT_ASSESSED",
+        "cds_end": 734,
+        "cds_position": null,
+        "cds_start": 96,
+        "codon_number": null,
+        "coordinate_system": "1-based inclusive transcript",
+        "gene_id": "542812",
+        "limitations": [
+          "Single-nucleotide substitutions in annotated transcripts only; not genomic coordinates.",
+          "Internal CDS consequences describe sequence-level changes, not function, phenotype, or orthology.",
+          "UTR, start-codon, and terminal-stop-codon protein consequences are not assessed."
+        ],
+        "molecular_consequence": null,
+        "not_assessed_reason": "UTR substitution: no protein consequence or RNA/regulatory effect is assessed.",
+        "protein_accession": "XP_044398325.1",
+        "reference": "C",
+        "reference_amino_acid": null,
+        "reference_codon": null,
+        "refseq_status": "MODEL",
+        "scientific_name": "Triticum aestivum",
+        "transcript_accession": "XM_044542390.1",
+        "transcript_position": 1,
+        "transcript_region": "FIVE_PRIME_UTR",
+        "unsupported_region": null
+      },
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/XM_044542390.1"
+    },
+    {
+      "annotation_limitations": [],
+      "example": {
+        "alternative": "A",
+        "expected": {
+          "analysis_status": "NOT_ASSESSED",
+          "molecular_consequence": null,
+          "transcript_region": "THREE_PRIME_UTR",
+          "unsupported_region": null
+        },
+        "id": "wheat_three_prime_utr",
+        "origin": "computationally_introduced_hypothetical_substitution",
+        "position": 735,
+        "reference": "T",
+        "transcript_accession": "XM_044542390.1"
+      },
+      "record_title": "PREDICTED: Triticum aestivum dehydration-responsive element-binding protein 1B (LOC542812), mRNA",
+      "result": {
+        "alternative": "A",
+        "alternative_amino_acid": null,
+        "alternative_codon": null,
+        "analysis_status": "NOT_ASSESSED",
+        "cds_end": 734,
+        "cds_position": null,
+        "cds_start": 96,
+        "codon_number": null,
+        "coordinate_system": "1-based inclusive transcript",
+        "gene_id": "542812",
+        "limitations": [
+          "Single-nucleotide substitutions in annotated transcripts only; not genomic coordinates.",
+          "Internal CDS consequences describe sequence-level changes, not function, phenotype, or orthology.",
+          "UTR, start-codon, and terminal-stop-codon protein consequences are not assessed."
+        ],
+        "molecular_consequence": null,
+        "not_assessed_reason": "UTR substitution: no protein consequence or RNA/regulatory effect is assessed.",
+        "protein_accession": "XP_044398325.1",
+        "reference": "T",
+        "reference_amino_acid": null,
+        "reference_codon": null,
+        "refseq_status": "MODEL",
+        "scientific_name": "Triticum aestivum",
+        "transcript_accession": "XM_044542390.1",
+        "transcript_position": 735,
+        "transcript_region": "THREE_PRIME_UTR",
+        "unsupported_region": null
+      },
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/XM_044542390.1"
+    },
+    {
+      "annotation_limitations": [],
+      "example": {
+        "alternative": "C",
+        "expected": {
+          "analysis_status": "UNSUPPORTED",
+          "molecular_consequence": null,
+          "transcript_region": "CDS",
+          "unsupported_region": "START_CODON"
+        },
+        "id": "wheat_start_codon",
+        "origin": "computationally_introduced_hypothetical_substitution",
+        "position": 96,
+        "reference": "A",
+        "transcript_accession": "XM_044542390.1"
+      },
+      "record_title": "PREDICTED: Triticum aestivum dehydration-responsive element-binding protein 1B (LOC542812), mRNA",
+      "result": {
+        "alternative": "C",
+        "alternative_amino_acid": null,
+        "alternative_codon": null,
+        "analysis_status": "UNSUPPORTED",
+        "cds_end": 734,
+        "cds_position": 1,
+        "cds_start": 96,
+        "codon_number": 1,
+        "coordinate_system": "1-based inclusive transcript",
+        "gene_id": "542812",
+        "limitations": [
+          "Single-nucleotide substitutions in annotated transcripts only; not genomic coordinates.",
+          "Internal CDS consequences describe sequence-level changes, not function, phenotype, or orthology.",
+          "UTR, start-codon, and terminal-stop-codon protein consequences are not assessed."
+        ],
+        "molecular_consequence": null,
+        "not_assessed_reason": "The existing classifier excludes this boundary codon; no start-lost or stop-lost prediction is made.",
+        "protein_accession": "XP_044398325.1",
+        "reference": "A",
+        "reference_amino_acid": null,
+        "reference_codon": null,
+        "refseq_status": "MODEL",
+        "scientific_name": "Triticum aestivum",
+        "transcript_accession": "XM_044542390.1",
+        "transcript_position": 96,
+        "transcript_region": "CDS",
+        "unsupported_region": "START_CODON"
+      },
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/XM_044542390.1"
+    },
+    {
+      "annotation_limitations": [],
+      "example": {
+        "alternative": "C",
+        "expected": {
+          "analysis_status": "UNSUPPORTED",
+          "molecular_consequence": null,
+          "transcript_region": "CDS",
+          "unsupported_region": "TERMINAL_STOP_CODON"
+        },
+        "id": "wheat_terminal_stop_codon",
+        "origin": "computationally_introduced_hypothetical_substitution",
+        "position": 734,
+        "reference": "A",
+        "transcript_accession": "XM_044542390.1"
+      },
+      "record_title": "PREDICTED: Triticum aestivum dehydration-responsive element-binding protein 1B (LOC542812), mRNA",
+      "result": {
+        "alternative": "C",
+        "alternative_amino_acid": null,
+        "alternative_codon": null,
+        "analysis_status": "UNSUPPORTED",
+        "cds_end": 734,
+        "cds_position": 639,
+        "cds_start": 96,
+        "codon_number": 213,
+        "coordinate_system": "1-based inclusive transcript",
+        "gene_id": "542812",
+        "limitations": [
+          "Single-nucleotide substitutions in annotated transcripts only; not genomic coordinates.",
+          "Internal CDS consequences describe sequence-level changes, not function, phenotype, or orthology.",
+          "UTR, start-codon, and terminal-stop-codon protein consequences are not assessed."
+        ],
+        "molecular_consequence": null,
+        "not_assessed_reason": "The existing classifier excludes this boundary codon; no start-lost or stop-lost prediction is made.",
+        "protein_accession": "XP_044398325.1",
+        "reference": "A",
+        "reference_amino_acid": null,
+        "reference_codon": null,
+        "refseq_status": "MODEL",
+        "scientific_name": "Triticum aestivum",
+        "transcript_accession": "XM_044542390.1",
+        "transcript_position": 734,
+        "transcript_region": "CDS",
+        "unsupported_region": "TERMINAL_STOP_CODON"
+      },
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/XM_044542390.1"
+    }
+  ],
+  "schema_version": 1
+}
