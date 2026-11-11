@@ -1,0 +1,203 @@
+{
+  "description": "Hypothetical computational substitutions, not experimentally observed natural mutations or verified crop alleles.",
+  "schema_version": 1,
+  "selection_rule": "First internal position then A,C,G,T alternative for each classification; UTR/boundary positions selected explicitly.",
+  "variants": [
+    {
+      "alternative": "A",
+      "expected": {
+        "analysis_status": "ASSESSED",
+        "molecular_consequence": "SYNONYMOUS",
+        "transcript_region": "CDS",
+        "unsupported_region": null
+      },
+      "id": "maize_synonymous",
+      "origin": "computationally_introduced_hypothetical_substitution",
+      "position": 161,
+      "reference": "G",
+      "transcript_accession": "NM_001305944.1"
+    },
+    {
+      "alternative": "C",
+      "expected": {
+        "analysis_status": "ASSESSED",
+        "molecular_consequence": "MISSENSE",
+        "transcript_region": "CDS",
+        "unsupported_region": null
+      },
+      "id": "maize_missense",
+      "origin": "computationally_introduced_hypothetical_substitution",
+      "position": 159,
+      "reference": "A",
+      "transcript_accession": "NM_001305944.1"
+    },
+    {
+      "alternative": "T",
+      "expected": {
+        "analysis_status": "ASSESSED",
+        "molecular_consequence": "STOP_GAINED",
+        "transcript_region": "CDS",
+        "unsupported_region": null
+      },
+      "id": "maize_stop_gained",
+      "origin": "computationally_introduced_hypothetical_substitution",
+      "position": 168,
+      "reference": "C",
+      "transcript_accession": "NM_001305944.1"
+    },
+    {
+      "alternative": "A",
+      "expected": {
+        "analysis_status": "NOT_ASSESSED",
+        "molecular_consequence": null,
+        "transcript_region": "FIVE_PRIME_UTR",
+        "unsupported_region": null
+      },
+      "id": "maize_five_prime_utr",
+      "origin": "computationally_introduced_hypothetical_substitution",
+      "position": 1,
+      "reference": "G",
+      "transcript_accession": "NM_001305944.1"
+    },
+    {
+      "alternative": "C",
+      "expected": {
+        "analysis_status": "NOT_ASSESSED",
+        "molecular_consequence": null,
+        "transcript_region": "THREE_PRIME_UTR",
+        "unsupported_region": null
+      },
+      "id": "maize_three_prime_utr",
+      "origin": "computationally_introduced_hypothetical_substitution",
+      "position": 1260,
+      "reference": "A",
+      "transcript_accession": "NM_001305944.1"
+    },
+    {
+      "alternative": "C",
+      "expected": {
+        "analysis_status": "UNSUPPORTED",
+        "molecular_consequence": null,
+        "transcript_region": "CDS",
+        "unsupported_region": "START_CODON"
+      },
+      "id": "maize_start_codon",
+      "origin": "computationally_introduced_hypothetical_substitution",
+      "position": 156,
+      "reference": "A",
+      "transcript_accession": "NM_001305944.1"
+    },
+    {
+      "alternative": "C",
+      "expected": {
+        "analysis_status": "UNSUPPORTED",
+        "molecular_consequence": null,
+        "transcript_region": "CDS",
+        "unsupported_region": "TERMINAL_STOP_CODON"
+      },
+      "id": "maize_terminal_stop_codon",
+      "origin": "computationally_introduced_hypothetical_substitution",
+      "position": 1259,
+      "reference": "A",
+      "transcript_accession": "NM_001305944.1"
+    },
+    {
+      "alternative": "T",
+      "expected": {
+        "analysis_status": "ASSESSED",
+        "molecular_consequence": "SYNONYMOUS",
+        "transcript_region": "CDS",
+        "unsupported_region": null
+      },
+      "id": "wheat_synonymous",
+      "origin": "computationally_introduced_hypothetical_substitution",
+      "position": 101,
+      "reference": "C",
+      "transcript_accession": "XM_044542390.1"
+    },
+    {
+      "alternative": "A",
+      "expected": {
+        "analysis_status": "ASSESSED",
+        "molecular_consequence": "MISSENSE",
+        "transcript_region": "CDS",
+        "unsupported_region": null
+      },
+      "id": "wheat_missense",
+      "origin": "computationally_introduced_hypothetical_substitution",
+      "position": 99,
+      "reference": "G",
+      "transcript_accession": "XM_044542390.1"
+    },
+    {
+      "alternative": "T",
+      "expected": {
+        "analysis_status": "ASSESSED",
+        "molecular_consequence": "STOP_GAINED",
+        "transcript_region": "CDS",
+        "unsupported_region": null
+      },
+      "id": "wheat_stop_gained",
+      "origin": "computationally_introduced_hypothetical_substitution",
+      "position": 126,
+      "reference": "G",
+      "transcript_accession": "XM_044542390.1"
+    },
+    {
+      "alternative": "A",
+      "expected": {
+        "analysis_status": "NOT_ASSESSED",
+        "molecular_consequence": null,
+        "transcript_region": "FIVE_PRIME_UTR",
+        "unsupported_region": null
+      },
+      "id": "wheat_five_prime_utr",
+      "origin": "computationally_introduced_hypothetical_substitution",
+      "position": 1,
+      "reference": "C",
+      "transcript_accession": "XM_044542390.1"
+    },
+    {
+      "alternative": "A",
+      "expected": {
+        "analysis_status": "NOT_ASSESSED",
+        "molecular_consequence": null,
+        "transcript_region": "THREE_PRIME_UTR",
+        "unsupported_region": null
+      },
+      "id": "wheat_three_prime_utr",
+      "origin": "computationally_introduced_hypothetical_substitution",
+      "position": 735,
+      "reference": "T",
+      "transcript_accession": "XM_044542390.1"
+    },
+    {
+      "alternative": "C",
+      "expected": {
+        "analysis_status": "UNSUPPORTED",
+        "molecular_consequence": null,
+        "transcript_region": "CDS",
+        "unsupported_region": "START_CODON"
+      },
+      "id": "wheat_start_codon",
+      "origin": "computationally_introduced_hypothetical_substitution",
+      "position": 96,
+      "reference": "A",
+      "transcript_accession": "XM_044542390.1"
+    },
+    {
+      "alternative": "C",
+      "expected": {
+        "analysis_status": "UNSUPPORTED",
+        "molecular_consequence": null,
+        "transcript_region": "CDS",
+        "unsupported_region": "TERMINAL_STOP_CODON"
+      },
+      "id": "wheat_terminal_stop_codon",
+      "origin": "computationally_introduced_hypothetical_substitution",
+      "position": 734,
+      "reference": "A",
+      "transcript_accession": "XM_044542390.1"
+    }
+  ]
+}

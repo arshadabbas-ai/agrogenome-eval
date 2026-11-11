@@ -1,0 +1,29 @@
+{
+  "input_checksums": {
+    "cds_evidence/maize_NM_001305944.1.analysis.json": "15c5ef6f58ae9d647dba258f4ec66d4ba27c514b306cbd49714f4f23f94d74f9",
+    "cds_evidence/maize_NM_001305944.1.annotation.xml": "d8d62bbbdea9875514b93ec1cd9880f4bbcf7272fe73dd3c3b150c423a4c98cf",
+    "cds_evidence/maize_NM_001305944.1.cds.fasta": "aa24ed90e71ee18b2941bf300175eb4185cdc2e3fccbe2fd3cd99dbcd0f50d2a",
+    "cds_evidence/maize_NM_001305944.1.protein.fasta": "b325bbc94cafa2aad5d0ac6835ce8fe6335dc8a147bc1ac7c51a390d8ef0a126",
+    "cds_evidence/maize_NM_001305944.1.reference_protein.fasta": "0d4454025bcf7e0b794b3e05b4b4c6c4c35f627dda0a65b31d5f6b3b05a82dc1",
+    "cds_evidence/reference_manifest.snapshot.json": "d62b1b828fed585adedfedddac364a77e37bc4048eb8f218201b80202ff234b3",
+    "cds_evidence/summary.json": "e0dcad11a26662b7c0e450318dc9568716dbe13f50b7deef5379295c1825481b",
+    "cds_evidence/wheat_XM_044542390.1.analysis.json": "87f66366f5662c7b6a93da393fc28e8ff2c1946f3695fc608a6b2c70b5f30ddd",
+    "cds_evidence/wheat_XM_044542390.1.annotation.xml": "bb5ab5074e547493d0d08e23fdcf1dd45e991f3c74e4e7ca4154956d22f44726",
+    "cds_evidence/wheat_XM_044542390.1.cds.fasta": "e54ac4897e74a757b4f87d65e346785d018b9d8cc3354b8958cdc5c199fb1fa9",
+    "cds_evidence/wheat_XM_044542390.1.protein.fasta": "71757ace84434ecf7d1ac44c9436797aad6642cf24dd5286b960a2abd8728837",
+    "cds_evidence/wheat_XM_044542390.1.reference_protein.fasta": "ff5f754ef1f68646679e8d677c9df9d732d11824315739374d5c85f4d61bf148",
+    "hypothetical_variants.json": "32a672faab00a1e3c455b65d7063fa95ec611a77f5581b4f070fb734fcdd640b",
+    "reference/maize_NM_001305944.1.fasta": "ae9fb1ddd0238b9c81d981172b8dbded9aeef159469332ffab65ef8b32a377bc",
+    "reference/wheat_XM_044542390.1.fasta": "da5727206631082a88bcfcaa6d21f660600d1a4834bb7d20014c6ec4dd99ec82"
+  },
+  "output_checksums": {
+    "hypothetical_variants.snapshot.json": "32a672faab00a1e3c455b65d7063fa95ec611a77f5581b4f070fb734fcdd640b",
+    "results.json": "bbedf0d593459e7d9912250cf442d06e8010bf1829988f997204215b5673071b"
+  },
+  "reproducibility": "No timestamps or network requests; identical verified input bytes produce identical output bytes.",
+  "schema_version": 1,
+  "source_roots": {
+    "cds_evidence": "data/derived/cds_protein",
+    "reference": "data/reference"
+  }
+}

@@ -2,3 +2,6 @@
 data/reference/*.fasta -text
 # Derived evidence and serialized reports have byte-level provenance hashes.
 data/derived/cds_protein/* -text
+# Deterministic hypothetical-variant definitions and checksummed outputs.
+data/examples/hypothetical_variants.json -text
+data/derived/variant_effects/* -text
