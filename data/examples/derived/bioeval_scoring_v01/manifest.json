@@ -1,0 +1,27 @@
+{
+  "output_checksums": {
+    "report.json": "0834e34000c7b749dff9673816faa832fc7b09517082ab58fb3c070b334dc539",
+    "submission.snapshot.json": "5fafd770053fbe9459595f5202fc887adf0fb201e28909a3640d120a0b27f3e6"
+  },
+  "provenance": {
+    "benchmark_file_checksums": {
+      "gold_answers.json": "634ab8e9409bcd087ea230f5850a6eefeca6f4adb789f85c04c4fa4180578bd1",
+      "manifest.json": "17235b4c1b40ba7641ae5003dd168ebf8c206a15aa8e21843bb95da41e5a28d9",
+      "splits.json": "92e650b13aa73782700f32fea6cc2a7437125a50c1d65fdbeb26d69b8dd05f01",
+      "tasks.json": "27b6fe2580342ede6b1f1988af738c4c5b7e3abb7ae1755807b9155c0c646fea"
+    },
+    "benchmark_generator_version": "0.1.0",
+    "benchmark_manifest_sha256": "17235b4c1b40ba7641ae5003dd168ebf8c206a15aa8e21843bb95da41e5a28d9",
+    "benchmark_version": "0.1",
+    "evaluation_split": "all",
+    "gold_answers_sha256": "634ab8e9409bcd087ea230f5850a6eefeca6f4adb789f85c04c4fa4180578bd1",
+    "public_benchmark_disclosure": "Both partitions AND all answers are public research materials. Evaluation is not hidden, secret or contamination-resistant.",
+    "scorer_version": "0.1.0",
+    "scoring_policy_id": "bioeval-scoring-v0.1",
+    "scoring_policy_sha256": "e45edbeacd1d6ec4c73915c53f5c34a41b38fa99b7dcbd74696b0758ca5132f3",
+    "scoring_schema_version": "0.1",
+    "submitted_response_sha256": "5fafd770053fbe9459595f5202fc887adf0fb201e28909a3640d120a0b27f3e6",
+    "timestamp_policy": "No timestamp; fixed verified inputs produce byte-deterministic output."
+  },
+  "scoring_schema_version": "0.1"
+}
