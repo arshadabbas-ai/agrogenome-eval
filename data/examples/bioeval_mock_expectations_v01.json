@@ -1,0 +1,122 @@
+{
+  "cases": [
+    {
+      "case": "fully_correct_coding",
+      "expected_score": 100,
+      "required_error_codes": [],
+      "task_id": "BE01-01d494b4020b66b5"
+    },
+    {
+      "case": "incorrect_cds_position",
+      "expected_score": 90,
+      "required_error_codes": [
+        "INCORRECT_CDS_POSITION"
+      ],
+      "task_id": "BE01-0d1d23b4d45b911e"
+    },
+    {
+      "case": "incorrect_codon_number",
+      "expected_score": 50,
+      "required_error_codes": [
+        "INCORRECT_CODON_NUMBER",
+        "INCONSISTENT_OUTPUT_FIELDS"
+      ],
+      "task_id": "BE01-0292a793c0e83092"
+    },
+    {
+      "case": "incorrect_consequence",
+      "expected_score": 50,
+      "required_error_codes": [
+        "INCORRECT_MOLECULAR_CONSEQUENCE",
+        "INCONSISTENT_OUTPUT_FIELDS"
+      ],
+      "task_id": "BE01-331664048de460e7"
+    },
+    {
+      "case": "incorrect_amino_acid",
+      "expected_score": 50,
+      "required_error_codes": [
+        "INCORRECT_ALTERNATIVE_AMINO_ACID",
+        "INCONSISTENT_OUTPUT_FIELDS"
+      ],
+      "task_id": "BE01-24a0508c7a91cf4c"
+    },
+    {
+      "case": "utr_protein_overclaim",
+      "expected_score": 20,
+      "required_error_codes": [
+        "UNJUSTIFIED_UTR_PROTEIN_CONSEQUENCE",
+        "INCONSISTENT_OUTPUT_FIELDS"
+      ],
+      "task_id": "BE01-12e78dc778631a6e"
+    },
+    {
+      "case": "boundary_overclassification",
+      "expected_score": 20,
+      "required_error_codes": [
+        "UNSUPPORTED_BOUNDARY_CLASSIFICATION",
+        "INCONSISTENT_OUTPUT_FIELDS"
+      ],
+      "task_id": "BE01-071ab26e366d3232"
+    },
+    {
+      "case": "phenotype_overclaim",
+      "expected_score": 50,
+      "required_error_codes": [
+        "INCORRECT_PHENOTYPE_SUPPORT"
+      ],
+      "task_id": "BE01-1c786e7e2f97552b"
+    },
+    {
+      "case": "malformed_json",
+      "expected_score": 0,
+      "required_error_codes": [
+        "INVALID_JSON"
+      ],
+      "task_id": "BE01-27013806acdf998e"
+    },
+    {
+      "case": "missing_required_field",
+      "expected_score": 0,
+      "required_error_codes": [
+        "MISSING_REQUIRED_FIELD"
+      ],
+      "task_id": "BE01-2db3f22c94b5e682"
+    },
+    {
+      "case": "duplicate_task_response",
+      "expected_score": 0,
+      "required_error_codes": [
+        "DUPLICATE_TASK_RESPONSE"
+      ],
+      "task_id": "BE01-30f98d85c5f2f3bc"
+    },
+    {
+      "case": "explicit_abstention",
+      "expected_score": 0,
+      "required_error_codes": [
+        "EXPLICIT_ABSTENTION"
+      ],
+      "task_id": "BE01-333c5a2bce1ddf99"
+    },
+    {
+      "case": "missing_response",
+      "expected_score": 0,
+      "required_error_codes": [
+        "MISSING_RESPONSE"
+      ],
+      "task_id": "BE01-37985bd369e8923c"
+    }
+  ],
+  "description": "Manually specified synthetic scorer-test expectations; not real model results.",
+  "expected_summary": {
+    "abstention_count": 1,
+    "exact_response_count": 1,
+    "invalid_response_count": 3,
+    "missing_response_count": 108,
+    "score_sum": 430,
+    "submitted_response_count": 14,
+    "total_selected_tasks": 120,
+    "valid_response_count": 8
+  }
+}

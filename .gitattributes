@@ -5,3 +5,10 @@ data/derived/cds_protein/* -text
 # Deterministic hypothetical-variant definitions and checksummed outputs.
 data/examples/hypothetical_variants.json -text
 data/derived/variant_effects/* -text
+# Public BioEval snapshots have byte-level output checksums.
+data/benchmarks/bioeval_v01/*.json -text
+# Scoring policy and synthetic evaluation inputs/reports carry exact-byte hashes.
+docs/bioeval_scoring_v01.md -text
+data/examples/bioeval_mock_responses_v01.json -text
+data/examples/derived/bioeval_scoring_v01/*.json -text
+data/examples/derived/bioeval_scoring_v01_qa/*.json -text

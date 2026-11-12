@@ -1,0 +1,76 @@
+{
+  "responses": [
+    {
+      "abstain": false,
+      "raw_response": "{\"alternative_amino_acid\": \"V\", \"alternative_codon\": \"GTG\", \"analysis_status\": \"ASSESSED\", \"cds_position\": 547, \"codon_number\": 183, \"molecular_consequence\": \"MISSENSE\", \"phenotype_claim_support\": \"NOT_ESTABLISHED\", \"reference_amino_acid\": \"L\", \"reference_codon\": \"TTG\", \"task_id\": \"BE01-01d494b4020b66b5\", \"transcript_accession\": \"NM_001305944.1\", \"transcript_region\": \"CDS\", \"unsupported_region\": null}",
+      "task_id": "BE01-01d494b4020b66b5"
+    },
+    {
+      "abstain": false,
+      "raw_response": "{\"alternative_amino_acid\": \"T\", \"alternative_codon\": \"ACC\", \"analysis_status\": \"ASSESSED\", \"cds_position\": 245, \"codon_number\": 82, \"molecular_consequence\": \"MISSENSE\", \"phenotype_claim_support\": \"NOT_ESTABLISHED\", \"reference_amino_acid\": \"A\", \"reference_codon\": \"GCC\", \"task_id\": \"BE01-0d1d23b4d45b911e\", \"transcript_accession\": \"XM_044542390.1\", \"transcript_region\": \"CDS\", \"unsupported_region\": null}",
+      "task_id": "BE01-0d1d23b4d45b911e"
+    },
+    {
+      "abstain": false,
+      "raw_response": "{\"alternative_amino_acid\": \"G\", \"alternative_codon\": \"GGG\", \"analysis_status\": \"ASSESSED\", \"cds_position\": 69, \"codon_number\": 24, \"molecular_consequence\": \"SYNONYMOUS\", \"phenotype_claim_support\": \"NOT_ESTABLISHED\", \"reference_amino_acid\": \"G\", \"reference_codon\": \"GGA\", \"task_id\": \"BE01-0292a793c0e83092\", \"transcript_accession\": \"NM_001305944.1\", \"transcript_region\": \"CDS\", \"unsupported_region\": null}",
+      "task_id": "BE01-0292a793c0e83092"
+    },
+    {
+      "abstain": false,
+      "raw_response": "{\"alternative_amino_acid\": \"E\", \"alternative_codon\": \"GAG\", \"analysis_status\": \"ASSESSED\", \"cds_position\": 438, \"codon_number\": 146, \"molecular_consequence\": \"MISSENSE\", \"phenotype_claim_support\": \"NOT_ESTABLISHED\", \"reference_amino_acid\": \"E\", \"reference_codon\": \"GAA\", \"task_id\": \"BE01-331664048de460e7\", \"transcript_accession\": \"XM_044542390.1\", \"transcript_region\": \"CDS\", \"unsupported_region\": null}",
+      "task_id": "BE01-331664048de460e7"
+    },
+    {
+      "abstain": false,
+      "raw_response": "{\"alternative_amino_acid\": \"A\", \"alternative_codon\": \"TTG\", \"analysis_status\": \"ASSESSED\", \"cds_position\": 220, \"codon_number\": 74, \"molecular_consequence\": \"MISSENSE\", \"phenotype_claim_support\": \"NOT_ESTABLISHED\", \"reference_amino_acid\": \"M\", \"reference_codon\": \"ATG\", \"task_id\": \"BE01-24a0508c7a91cf4c\", \"transcript_accession\": \"XM_044542390.1\", \"transcript_region\": \"CDS\", \"unsupported_region\": null}",
+      "task_id": "BE01-24a0508c7a91cf4c"
+    },
+    {
+      "abstain": false,
+      "raw_response": "{\"alternative_amino_acid\": \"K\", \"alternative_codon\": \"AAG\", \"analysis_status\": \"NOT_ASSESSED\", \"cds_position\": null, \"codon_number\": null, \"molecular_consequence\": \"SYNONYMOUS\", \"phenotype_claim_support\": \"NOT_ESTABLISHED\", \"reference_amino_acid\": \"K\", \"reference_codon\": \"AAA\", \"task_id\": \"BE01-12e78dc778631a6e\", \"transcript_accession\": \"XM_044542390.1\", \"transcript_region\": \"THREE_PRIME_UTR\", \"unsupported_region\": null}",
+      "task_id": "BE01-12e78dc778631a6e"
+    },
+    {
+      "abstain": false,
+      "raw_response": "{\"alternative_amino_acid\": \"K\", \"alternative_codon\": \"AAG\", \"analysis_status\": \"UNSUPPORTED\", \"cds_position\": 2, \"codon_number\": 1, \"molecular_consequence\": \"SYNONYMOUS\", \"phenotype_claim_support\": \"NOT_ESTABLISHED\", \"reference_amino_acid\": \"K\", \"reference_codon\": \"AAA\", \"task_id\": \"BE01-071ab26e366d3232\", \"transcript_accession\": \"NM_001305944.1\", \"transcript_region\": \"CDS\", \"unsupported_region\": \"START_CODON\"}",
+      "task_id": "BE01-071ab26e366d3232"
+    },
+    {
+      "abstain": false,
+      "raw_response": "{\"alternative_amino_acid\": \"*\", \"alternative_codon\": \"TAG\", \"analysis_status\": \"ASSESSED\", \"cds_position\": 530, \"codon_number\": 177, \"molecular_consequence\": \"STOP_GAINED\", \"phenotype_claim_support\": \"ESTABLISHED\", \"reference_amino_acid\": \"S\", \"reference_codon\": \"TCG\", \"task_id\": \"BE01-1c786e7e2f97552b\", \"transcript_accession\": \"XM_044542390.1\", \"transcript_region\": \"CDS\", \"unsupported_region\": null}",
+      "task_id": "BE01-1c786e7e2f97552b"
+    },
+    {
+      "abstain": false,
+      "raw_response": "{not JSON}",
+      "task_id": "BE01-27013806acdf998e"
+    },
+    {
+      "abstain": false,
+      "raw_response": "{\"alternative_amino_acid\": \"S\", \"alternative_codon\": \"TCC\", \"analysis_status\": \"ASSESSED\", \"cds_position\": 533, \"molecular_consequence\": \"MISSENSE\", \"phenotype_claim_support\": \"NOT_ESTABLISHED\", \"reference_amino_acid\": \"Y\", \"reference_codon\": \"TAC\", \"task_id\": \"BE01-2db3f22c94b5e682\", \"transcript_accession\": \"XM_044542390.1\", \"transcript_region\": \"CDS\", \"unsupported_region\": null}",
+      "task_id": "BE01-2db3f22c94b5e682"
+    },
+    {
+      "abstain": false,
+      "raw_response": "{\"alternative_amino_acid\": \"*\", \"alternative_codon\": \"TAG\", \"analysis_status\": \"ASSESSED\", \"cds_position\": 85, \"codon_number\": 29, \"molecular_consequence\": \"STOP_GAINED\", \"phenotype_claim_support\": \"NOT_ESTABLISHED\", \"reference_amino_acid\": \"K\", \"reference_codon\": \"AAG\", \"task_id\": \"BE01-30f98d85c5f2f3bc\", \"transcript_accession\": \"XM_044542390.1\", \"transcript_region\": \"CDS\", \"unsupported_region\": null}",
+      "task_id": "BE01-30f98d85c5f2f3bc"
+    },
+    {
+      "abstain": false,
+      "raw_response": "{\"alternative_amino_acid\": \"*\", \"alternative_codon\": \"TAG\", \"analysis_status\": \"ASSESSED\", \"cds_position\": 85, \"codon_number\": 29, \"molecular_consequence\": \"STOP_GAINED\", \"phenotype_claim_support\": \"NOT_ESTABLISHED\", \"reference_amino_acid\": \"K\", \"reference_codon\": \"AAG\", \"task_id\": \"BE01-30f98d85c5f2f3bc\", \"transcript_accession\": \"XM_044542390.1\", \"transcript_region\": \"CDS\", \"unsupported_region\": null}",
+      "task_id": "BE01-30f98d85c5f2f3bc"
+    },
+    {
+      "abstain": true,
+      "raw_response": null,
+      "task_id": "BE01-333c5a2bce1ddf99"
+    },
+    {
+      "abstain": false,
+      "raw_response": "{}",
+      "task_id": "UNKNOWN-MOCK-ID"
+    }
+  ],
+  "schema_version": "0.1",
+  "submission_kind": "synthetic_scorer_testing"
+}

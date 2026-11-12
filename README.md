@@ -35,10 +35,11 @@ responsible interpretation of genomic information.
 
 ## Current Implementation — v0.1.0
 
-Two scientific Python components are implemented: the Genetic Variant
-Classifier and the GenomeLab DNA Sequence Analysis Engine. These tools
-provide sequence-level calculations; crop-specific research workflows,
-AI benchmarks, and the public web platform remain planned work.
+The Python toolkit includes DNA sequence analysis, genetic variant
+classification, provenance-verified maize and wheat reference transcripts,
+annotated CDS extraction and protein translation validation, transcript-aware
+substitution analysis, and the BioEval v0.1 benchmark and scoring engine.
+The public web platform remains a development objective.
 
 ### Genetic Variant Classifier
 
@@ -88,6 +89,88 @@ The analysis dictionaries use `sequence`, `length`, `nucleotide_counts`,
 `gc_percentage`, `complement`, and `reverse_complement` keys. Values are ordinary
 Python strings, integers, floats, and dictionaries, suitable for `json.dumps`.
 
+### Authentic maize and wheat reference transcripts
+
+Versioned NCBI transcript references and their provenance are stored in
+[`data/reference/`](data/reference/). The manifest records retrieval metadata,
+source URLs, sequence calculations, and SHA-256 checksums over saved file bytes.
+
+| Species | Transcript | Gene ID | Associated protein | RefSeq status |
+|---|---|---:|---|---|
+| Maize (*Zea mays*) | NM_001305944.1 | 732788 | NP_001292873.1 | VALIDATED |
+| Wheat (*Triticum aestivum*) | XM_044542390.1 | 542812 | XP_044398325.1 | MODEL |
+
+Maize record-title and CDS-product naming differences, including DRE-binding
+protein 1c and dehydration-responsive element-binding protein 2A, are retained
+in the source provenance with alternative names. RefSeq status describes the
+source annotation's curation level. Source attribution and third-party-rights
+caveats accompany the dataset.
+
+### Annotated CDS and protein validation
+
+The CDS engine uses saved NCBI annotation XML, checks annotated coordinates,
+reading frame and translation table, extracts coding DNA, and compares its
+translation with the accession-specific reference protein. Derived FASTA,
+JSON results, original annotation XML, and checksums are available in
+[`data/derived/cds_protein/`](data/derived/cds_protein/).
+
+### Transcript-aware variant consequences
+
+The transcript-aware engine maps 1-based transcript substitution coordinates
+to UTRs, CDS positions and codon numbers. Internal coding substitutions use the
+existing classifier for SYNONYMOUS, MISSENSE and STOP_GAINED consequences.
+UTR protein effects are NOT_ASSESSED. The entire first coding codon and terminal
+stop codon are UNSUPPORTED. The 14 hypothetical demonstration definitions and
+their results are in [`data/examples/hypothetical_variants.json`](data/examples/hypothetical_variants.json)
+and [`data/derived/variant_effects/`](data/derived/variant_effects/).
+
+### BioEval Benchmark v0.1
+
+BioEval provides 120 source-linked hypothetical substitution tasks, comprising
+60 maize and 60 wheat tasks, with 80 development and 40 evaluation tasks.
+Each species contributes 12 synonymous, 12 missense, 12 stop-gained, six
+5-prime UTR, six 3-prime UTR, six start-codon and six terminal-stop tasks.
+All 120 gold answers are independently audited, including all 72 assessed
+coding substitutions. The 14 earlier demonstration substitutions are excluded.
+
+**Both splits and all gold answers are public.** Tasks share two transcripts
+and may share positions or codons across splits. Public answers, uniform
+question templates and constant NOT_ESTABLISHED phenotype-support labels permit
+memorization and shortcuts. Interpretation must account for these dependencies
+and the deliberately balanced categories. The evaluation partition provides a
+public research comparison with exposure to answer contamination.
+
+The dataset, generation rules, independent validation and split limitations are
+documented in the [benchmark specification](docs/bioeval_benchmark_v01.md).
+
+### BioEval Scientific Scoring Engine v0.1
+
+The offline evaluator strictly parses the 13-field JSON response contract,
+rejects malformed JSON and duplicate keys, and distinguishes formatting errors
+from scientific field mismatches. Category-specific 0–100 partial scores use
+explicit weights, contradiction gating and score caps. Reports include exact
+accuracy, coverage-adjusted scores, species/category/status groups, field-level
+diagnostics and scientific error-code frequencies. Missing responses, invalid
+answers, duplicates, unknown IDs and abstentions have explicit handling.
+
+Weights and caps are heuristic policy choices. A coordinate-only error within
+the same codon can retain 90 points, and a coherent wrong coordinate pair can
+retain 80. Exact-match accuracy requires every response field to agree with gold.
+Scoring assesses structured assertions. Arbitrary natural-language biological
+explanations require a separate evaluation approach. Both evaluation questions
+and their gold answers are publicly available.
+
+The synthetic scorer demonstration contains eight valid answers, three invalid
+tasks, one abstention and 108 missing tasks. Its 430 points yield a valid-answer
+mean of 53.75 and a coverage-adjusted mean of approximately 3.583333. These
+fixtures were manually constructed for scorer testing. Empirical AI-model
+evaluation remains future work.
+
+Read the [scoring policy](docs/bioeval_scoring_v01.md) and
+[independent scoring audit](docs/bioeval_scoring_v01_qa.md).
+The original demonstration and the additional audited report are retained in
+[`data/examples/derived/`](data/examples/derived/).
+
 ## Scientific Case Study: Maize
 
 An initial analysis was performed using an NCBI
@@ -125,12 +208,14 @@ validation.
 
 Current results:
 
-- 108 passing automated tests: 97 sequence-analysis tests and 11 classifier tests
-- Verified locally on Windows with Python 3.14.7 and in GitHub Actions on Linux
-  with Python 3.12.16
-- Coverage includes independent synthetic reference calculations, complement
-  orientation, lowercase normalization, invalid inputs, FASTA parsing and
-  provenance, and JSON serialization, alongside the existing classifier tests
+- 497 passing automated tests locally on Windows with Python 3.14.7
+- GitHub Actions executes the suite on Linux using Python 3.12
+- The suite includes 364 existing scientific tests, 54 BioEval benchmark tests
+  and 79 scoring tests
+- Coverage includes sequence calculations, FASTA parsing, provenance, annotated
+  CDS/protein validation, transcript consequences, independent gold answers,
+  strict response validation, score arithmetic, deterministic replay and safe
+  output publication
 
 Further biological edge-case testing is planned
 before public deployment.
@@ -213,11 +298,30 @@ assert record["sequence"] == dna
 print(json.dumps(record, indent=2))
 ```
 
+## Reproducible Offline Workflows
+
+Run these commands from the repository root after installation. Each output
+directory must be new. Choose fresh paths when repeating a command.
+
+```text
+python scripts/analyze_transcript_variants.py --output tmp/transcript_variants
+python scripts/generate_bioeval_benchmark.py --output tmp/bioeval_benchmark
+python scripts/score_bioeval_responses.py --responses data/examples/bioeval_mock_responses_v01.json --benchmark data/benchmarks/bioeval_v01 --split all --output tmp/bioeval_scoring
+```
+
+These workflows verify the saved source evidence and operate offline. Benchmark
+generation uses the audited fixed seed 20261112. Scoring accepts `development`,
+`evaluation` or `all` and records policy/version identifiers, input SHA-256
+checksums, the original submission snapshot and output hashes. Fixed inputs
+produce byte-identical outputs. The scoring command above uses the synthetic
+fixture described in the scoring policy.
+
 ## Planned Research Modules
 
 ### 1. GenomeLab extensions
-The DNA analysis engine above is implemented. Broader gene-structure,
-translation, and integrated variant-interpretation workflows remain planned.
+Sequence analysis, annotated CDS/protein validation and transcript-aware
+substitution analysis are implemented. Broader gene-structure analysis and
+additional variant classes remain research objectives.
 
 ### 2. CropStress Explorer
 Maize and wheat stress-response research, with an
@@ -232,8 +336,9 @@ Evaluation of scientific claims against supporting
 biological evidence and documented uncertainty.
 
 ### 5. BioEval Studio
-A reproducible benchmark for evaluating AI-generated
-genomic calculations and biological interpretations.
+The public v0.1 benchmark and deterministic structured-response scorer are
+implemented. Future research includes additional genes and species,
+independent holdout design and empirical AI-model evaluation.
 
 ## Planned Web Platform
 
