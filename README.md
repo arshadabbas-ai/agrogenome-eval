@@ -163,13 +163,45 @@ and their gold answers are publicly available.
 The synthetic scorer demonstration contains eight valid answers, three invalid
 tasks, one abstention and 108 missing tasks. Its 430 points yield a valid-answer
 mean of 53.75 and a coverage-adjusted mean of approximately 3.583333. These
-fixtures were manually constructed for scorer testing. Empirical AI-model
-evaluation remains future work.
+fixtures were manually constructed for scorer testing. A separately collected
+empirical pilot is summarized below.
 
 Read the [scoring policy](docs/bioeval_scoring_v01.md) and
 [independent scoring audit](docs/bioeval_scoring_v01_qa.md).
 The original demonstration and the additional audited report are retained in
 [`data/examples/derived/`](data/examples/derived/).
+
+### BioEval empirical pilot and capture pipeline
+
+The offline workflow exports original benchmark questions, validates captured
+responses and execution metadata, imports preserved bytes with SHA-256 records,
+and scores the fixed fourteen-task development pilot. The capture contract
+retains first-attempt selection, refusals, abstentions, failures and unavailable
+settings. Import and scoring replay use the original evidence.
+
+A completed manual ChatGPT pilot recorded fourteen responses under the
+researcher-attested GPT-6 High identity. Two responses passed the full schema
+and exactly matched gold. Twelve received zero before biological grading,
+comprising nine JSON syntax failures and three enum failures. Strict exact
+accuracy was 2/14 and the coverage-adjusted mean was 14.285714285714286/100.
+Both valid answers scored 100/100. Each species contributed one exact answer
+among seven tasks.
+
+Seven captured responses contained Markdown fences. Two contained unresolved
+copying-transformation artifacts. The original questions omitted certain schema
+conventions, including accepted UTR enum spellings and one-letter amino-acid
+notation. Biological correctness across invalid answers remains incompletely
+measured. Model identity lacks independent authentication. Public answers and
+two correlated transcript sources constrain generalization.
+
+The [de-identified pilot summary](docs/bioeval_pilot_results_v01.md) documents
+results, audit findings, limitations and reproducibility boundaries. The
+[empirical protocol](docs/bioeval_empirical_protocol_v01.md),
+[capture specification](docs/bioeval_response_capture_v01.md),
+[manual collection guide](docs/bioeval_manual_model_pilot_guide_v01.md) and
+[pilot evaluator documentation](docs/bioeval_pilot_evaluation_v01.md) describe
+the public software. Original response text, private ledgers, personal metadata
+and researcher attestations remain in local research storage.
 
 ## Scientific Case Study: Maize
 
@@ -208,10 +240,12 @@ validation.
 
 Current results:
 
-- 497 passing automated tests locally on Windows with Python 3.14.7
-- GitHub Actions executes the suite on Linux using Python 3.12
-- The suite includes 364 existing scientific tests, 54 BioEval benchmark tests
-  and 79 scoring tests
+- 631 passing automated tests locally on Windows with Python 3.14.7
+- GitHub Actions passed all 631 tests on Linux with Python 3.12.16.
+  [Verified workflow run](https://github.com/arshadabbas-ai/agrogenome-eval/actions/runs/44369465306)
+- The suite includes 364 existing scientific tests, 54 benchmark tests,
+  79 scoring tests and 134 empirical-protocol, capture and pilot tests
+- An additional 23 private collection-runner regression checks passed locally
 - Coverage includes sequence calculations, FASTA parsing, provenance, annotated
   CDS/protein validation, transcript consequences, independent gold answers,
   strict response validation, score arithmetic, deterministic replay and safe
@@ -307,6 +341,7 @@ directory must be new. Choose fresh paths when repeating a command.
 python scripts/analyze_transcript_variants.py --output tmp/transcript_variants
 python scripts/generate_bioeval_benchmark.py --output tmp/bioeval_benchmark
 python scripts/score_bioeval_responses.py --responses data/examples/bioeval_mock_responses_v01.json --benchmark data/benchmarks/bioeval_v01 --split all --output tmp/bioeval_scoring
+python scripts/export_bioeval_model_prompts.py --partition development --pilot --seed 20261112 --output tmp/bioeval_pilot_questions
 ```
 
 These workflows verify the saved source evidence and operate offline. Benchmark
@@ -338,7 +373,7 @@ biological evidence and documented uncertainty.
 ### 5. BioEval Studio
 The public v0.1 benchmark and deterministic structured-response scorer are
 implemented. Future research includes additional genes and species,
-independent holdout design and empirical AI-model evaluation.
+independent holdout design and further empirical model comparisons.
 
 ## Planned Web Platform
 
