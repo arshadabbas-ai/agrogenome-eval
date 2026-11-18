@@ -241,8 +241,8 @@ validation.
 Current results:
 
 - 631 passing automated tests locally on Windows with Python 3.14.7
-- The tracked GitHub Actions workflow targets Linux with Python 3.12. Runtime
-  validation of this release candidate remains pending its successful CI run.
+- GitHub Actions passed all 631 tests on Linux with Python 3.12.16.
+  [Verified workflow run](https://github.com/arshadabbas-ai/agrogenome-eval/actions/runs/44369465306)
 - The suite includes 364 existing scientific tests, 54 benchmark tests,
   79 scoring tests and 134 empirical-protocol, capture and pilot tests
 - An additional 23 private collection-runner regression checks passed locally

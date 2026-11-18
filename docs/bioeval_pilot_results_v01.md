@@ -5,8 +5,9 @@
 This de-identified summary accompanies the proposed Milestone 07 source release.
 It describes a completed, audited fourteen-task development-set pilot using the
 researcher-attested OpenAI GPT-6 High identity through the manual ChatGPT
-interface. Model identity lacks independent authentication. Publication approval
-and Linux Python 3.12 validation of this release candidate remain pending.
+interface. Model identity lacks independent authentication. Linux Python 3.12.16
+CI passed all 631 tests on PR #7. The release awaits final merge approval.
+[Verified workflow run](https://github.com/arshadabbas-ai/agrogenome-eval/actions/runs/44369465306)
 
 BioEval v0.1 contains 120 benchmark tasks generated from two versioned reference
 transcripts, maize NM_001305944.1 and wheat XM_044542390.1. There are 80 development
